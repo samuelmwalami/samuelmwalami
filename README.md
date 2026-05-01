@@ -65,19 +65,18 @@
 <img width="100%" src="./assets/github-stats.svg" alt ="github_stats">
 </div>
 
-<!-- stats -->
-
-<div align="left">
-
-<img height="220" src="https://github-readme-stats.vercel.app/api?username=samuelmwalami&show_icons=true&hide_border=true&bg_color=040607&title_color=7fff9e&icon_color=7fff9e&text_color=8fa8b8&count_private=true&include_all_commits=true&show=prs_merged,reviews&rank_icon=github&custom_title=github_stats" />&nbsp;&nbsp;<img height="220" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuelmwalami&layout=compact&hide_border=true&bg_color=040607&title_color=7fff9e&text_color=8fa8b8&langs_count=6&custom_title=top_languages" />
-
-</div>
-
 
 <!-- Activity graph -->
 <div align="left">
 
 <img  width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=samuelmwalami&bg_color=040607&color=7fff9e&line=7fff9e&point=7fff9e&area=true&hide_border=true&custom_title=contribution_graph" />
+
+</div>
+
+<!-- stats -->
+<div align="left">
+
+<img height="220"  src="https://github-readme-stats.vercel.app/api?username=samuelmwalami&show_icons=true&hide_border=true&bg_color=040607&title_color=7fff9e&icon_color=7fff9e&text_color=8fa8b8&count_private=true&include_all_commits=true&show=prs_merged,reviews&rank_icon=github&custom_title=github_stats" />&nbsp;&nbsp;<img height="220" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuelmwalami&layout=compact&hide_border=true&bg_color=040607&title_color=7fff9e&text_color=8fa8b8&langs_count=6&custom_title=top_languages" />
 
 </div>
 
