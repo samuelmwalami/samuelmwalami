@@ -1,0 +1,115 @@
+<svg width="680" height="310" viewBox="0 0 680 310" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      text { font-family: 'Courier New', Courier, monospace; }
+    </style>
+    <!-- subtle scanlines -->
+    <pattern id="scan" width="1" height="3" patternUnits="userSpaceOnUse">
+      <rect width="1" height="1" fill="white" opacity="0.012"/>
+    </pattern>
+  </defs>
+ 
+  <!-- window bg -->
+  <rect width="680" height="310" rx="5" ry="5" fill="#040607"/>
+  <!-- border -->
+  <rect width="680" height="310" rx="5" ry="5" fill="none" stroke="rgba(127,255,158,0.1)" stroke-width="1"/>
+  <!-- scanlines -->
+  <rect width="680" height="310" rx="5" ry="5" fill="url(#scan)"/>
+ 
+  <!-- ── title bar ── -->
+  <rect width="680" height="36" rx="5" ry="5" fill="rgba(255,255,255,0.02)"/>
+  <rect y="18" width="680" height="18" fill="rgba(255,255,255,0.02)"/>
+  <rect y="36" width="680" height="1" fill="rgba(127,255,158,0.1)"/>
+ 
+  <!-- traffic lights -->
+  <circle cx="22" cy="18" r="5" fill="#2e1010" stroke="#4a1818" stroke-width="1"/>
+  <circle cx="42" cy="18" r="5" fill="#2e2508" stroke="#4a3e10" stroke-width="1"/>
+  <circle cx="62" cy="18" r="5" fill="#0c2610" stroke="#183e18" stroke-width="1"/>
+ 
+  <!-- title -->
+  <text x="340" y="22" font-size="11" fill="#dde6ec" text-anchor="middle" dominant-baseline="middle" letter-spacing="1">TECH STACK</text>
+ 
+  <!-- ── prompt line ── -->
+  <text x="22" y="66" font-size="13" fill="#7fff9e" letter-spacing="0.3">$</text>
+  <text x="36" y="66" font-size="12" fill="#475460">cat TECH_STACK.json</text>
+ 
+  <!-- ── JSON output ── -->
+ 
+  <!-- { -->
+  <text x="22" y="92" font-size="12.5" fill="#475460">{</text>
+ 
+  <!-- "languages" -->
+  <text x="42" y="114" font-size="12.5">
+    <tspan fill="#dde6ec">"languages"</tspan>
+    <tspan fill="#475460"> : [</tspan>
+    <tspan fill="#7fff9e">"Python"</tspan>
+    <tspan fill="#475460">, </tspan>
+    <tspan fill="#7fff9e">"Java"</tspan>
+    <tspan fill="#475460">, </tspan>
+    <tspan fill="#7fff9e">"JavaScript"</tspan>
+    <tspan fill="#475460">, </tspan>
+    <tspan fill="#7fff9e">"Dart"</tspan>
+    <tspan fill="#475460"> ],</tspan>
+  </text>
+ 
+  <!-- "backend" -->
+  <text x="42" y="136" font-size="12.5">
+    <tspan fill="#dde6ec">"backend"</tspan>
+    <tspan fill="#475460">                : [</tspan>
+    <tspan fill="#7fff9e">"FastAPI"</tspan>
+    <tspan fill="#475460">, </tspan>
+    <tspan fill="#7fff9e">"Java Servlets"</tspan>
+    <tspan fill="#475460"> ],</tspan>
+  </text>
+ 
+  <!-- "frontend" -->
+  <text x="42" y="158" font-size="12.5">
+    <tspan fill="#dde6ec">"frontend"</tspan>
+    <tspan fill="#475460">  : [</tspan>
+    <tspan fill="#7fff9e">"HTML5"</tspan>
+    <tspan fill="#475460">, </tspan>
+    <tspan fill="#7fff9e">"CSS3"</tspan>
+    <tspan fill="#475460">, </tspan>
+    <tspan fill="#7fff9e">"Flutter"</tspan>
+    <tspan fill="#475460"> ],</tspan>
+  </text>
+ 
+  <!-- "database" -->
+  <text x="42" y="180" font-size="12.5">
+    <tspan fill="#dde6ec">"database"</tspan>
+    <tspan fill="#475460">  : [</tspan>
+    <tspan fill="#7fff9e">"MySQL"</tspan>
+    <tspan fill="#475460"> ],</tspan>
+  </text>
+ 
+  <!-- "testing" -->
+  <text x="42" y="202" font-size="12.5">
+    <tspan fill="#dde6ec">"testing"</tspan>
+    <tspan fill="#475460">   : [</tspan>
+    <tspan fill="#7fff9e">"Apache Bench"</tspan>
+    <tspan fill="#475460">, </tspan>
+    <tspan fill="#7fff9e">"Grafana K6"</tspan>
+    <tspan fill="#475460"> ],</tspan>
+  </text>
+ 
+  <!-- "vcs" -->
+  <text x="42" y="224" font-size="12.5">
+    <tspan fill="#dde6ec">"vcs"</tspan>
+    <tspan fill="#475460">       : [</tspan>
+    <tspan fill="#7fff9e">"Git"</tspan>
+    <tspan fill="#475460">, </tspan>
+    <tspan fill="#7fff9e">"GitHub"</tspan>
+    <tspan fill="#475460"> ]</tspan>
+  </text>
+ 
+  <!-- } -->
+  <text x="22" y="246" font-size="12.5" fill="#475460">}</text>
+ 
+  <!-- ── cursor line ── -->
+  <text x="22" y="276" font-size="13" fill="#7fff9e" letter-spacing="0.3">$</text>
+ 
+  <!-- I-beam cursor -->
+  <rect x="36" y="263" width="2" height="15" fill="#7fff9e">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
