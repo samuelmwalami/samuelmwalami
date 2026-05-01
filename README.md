@@ -9,7 +9,7 @@
 <!-- Links -->
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/◈_portfolio-samuelmwalami.github.io-7fff9e?style=for-the-badge&labelColor=07090c&logoColor=white)](https://samuelmwalami.github.io/samuelmwalami)&nbsp;&nbsp;[![GitHub](https://img.shields.io/badge/◈_github-@samuelmwalami-7fb4ca?style=for-the-badge&logo=github&labelColor=07090c&logoColor=white)](https://github.com/samuelmwalami)
+[![Portfolio](https://img.shields.io/badge/◈_portfolio-samuelmwalami.github.io-7fff9e?style=for-the-badge&labelColor=07090c&logoColor=white)](https://samuelmwalami.github.io/portfolio)&nbsp;&nbsp;[![GitHub](https://img.shields.io/badge/◈_github-@samuelmwalami-7fb4ca?style=for-the-badge&logo=github&labelColor=07090c&logoColor=white)](https://github.com/samuelmwalami)
 
 </div>
 
